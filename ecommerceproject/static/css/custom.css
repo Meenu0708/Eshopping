@@ -60,6 +60,10 @@ body{
     text-transform: uppercase;
     letter-spacing: .2em;
     }
+.cat_image{
+    width: 100%;
+    height:500px;
+    }
 
 /*** Product page ***/
 .my_prod_row_class{

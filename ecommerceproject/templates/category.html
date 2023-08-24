@@ -26,9 +26,11 @@
         </div>
       </div>
   {% endif %}
-  <div class="row my_row_class">
-    {% if category %}
-      <img class="my_image" src="{{category.image.url}}" alt="{{category.name}}">
+  {% if category %}
+  <div>
+
+      <img class="my_image cat_image" src="{{category.image.url}}" alt="{{category.name}}">
+
   </div>
       <br>
   <div>
